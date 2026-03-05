@@ -1,0 +1,102 @@
+MEAN STACK
+     >>  M: mongoDB  (data base)
+     >>  E:  express js (bankend)
+     >>  A: angular    (frontend)
+     >>  N:  noda js  (bankend)
+
+Three pillars
+    >> html(hyper text markup language )
+    >>css  (cascading sytle sheets )
+    >>  js (java script)
+
+other stacks 
+    >>MEAN ,  MERN , java full  stack
+
+web dev
+     >> building/development team 
+     >> testing team (manual testers / automated  testers)
+     >> hosting team (devops team )
+     >> maintenance team ?support team
+
+SDLC (software development life cycle ):  
+      >> waterfall model
+      >> agile model
+      >> spiral model 
+      >> iterative model
+     >> v shaped model
+     >> R  AD (rapid application development) model
+
+URL (Uniform resource locator)
+    https://www.instagram.com/
+    https://edducation.rohanAcademy.edu/fullStack
+
+    https: protcol
+     rohanAcademy: server/domain name 
+     education:   sub-domain
+     .edu:  TLD (top level domain)
+     Fullstack : path/location
+
+protcol:
+    >> set of rules/instrctions 
+      http  : hyper text transfer protcol
+      https : hyper trxt transfer protcol secure
+      tcp   : tansmission control protcol
+      udp    :  user datagram protcol
+      smtp   : simple mail transfer protcol
+      ftp   : file transfer protcol
+      ip   : internet protcol (ipv4 & ipv6)
+
+
+          >> client/web page----------(u name & u pwd)---->instagram server
+          >>SSL (secure soccket layer) certification
+        
+server/domaim name :  
+       >> unique identifier 
+           >> Eg : google
+
+
+sub-ddomain name :
+         >>gmeet
+         >>gmaps
+         >>gdrive
+         >>gphotos
+         >>gfile 
+         >>gchrome
+         >> gcalendar
+         >>gpay
+
+         >>amazon  shopping
+         >>aws
+
+TLD (top lever domain ):
+     amazon.in  (india)
+     amazon.com  (commercial)
+     amazon.edu  (education)
+     amazon.org (orgensisation)
+     amazon.uk  (uniked kinddom)
+  
+
+
+bisleri
+           abc*not
+bysleri*
+bilseri*
+bilsleri*
+...
+
+
+nike 
+nyke 
+
+ offline  editors
+      >> notepad
+      >> notepad++
+      >> sublime
+      >> open brackets
+      >> vs code
+
+online editors
+      >>  codespace 
+      >>  codesendbox
+
+
