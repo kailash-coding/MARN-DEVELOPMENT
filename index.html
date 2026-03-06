@@ -1,19 +1,83 @@
-HTML  (hyper rext markup language )
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laundry Wallah / Laundry Mart</title>
+</head>
+<body>
 
-tags 
-    <> : opening tag
-    </ > : closing tag 
-    < /> : self closing tag
+    <!-- Header Section -->
+    <h1>Welcome to Laundry Wallah / Laundry Mart</h1>
 
+    <!-- About Section -->
+    <h2>About Us</h2>
+    <p>
+        Laundry Wallah / Laundry Mart is your trusted laundry service provider.
+        We offer high-quality washing, ironing, dry cleaning, and special garment care.
+        Our goal is to provide fast, affordable, and reliable laundry services.
+        Customer satisfaction is our top priority.
+        Book your service today for a hassle-free experience.
+    </p>
 
+    <!-- Image Section -->
+    <h2>Our Laundry Service</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/2975/2975175.png" 
+         alt="Laundry Image" width="200">
 
-    <!--,p> hrtyhtruthuirhguierhtuiyertuiy</p> --> -->
-  <
-    <!-- --> -->
-  <
+    <!-- Services Section -->
+    <h2>Our Services</h2>
+    <ul>
+        <li>Washing and Drying</li>
+        <li>Ironing and Folding</li>
+        <li>Dry Cleaning</li>
+        <li>Stain Removal</li>
+        <li>Express Services</li>
+        <li>Special Garment Care</li>
+    </ul>
 
-  <P id="demopage">  jjjkgjghfdghdfjkkhkddkfkjlkai;lkfnif </P>
+    <!-- Price List Section -->
+    <h2>Price List</h2>
+    <table border="1">
+        <tr>
+            <th>Service</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Washing and Drying</td>
+            <td>Rs. 10</td>
+        </tr>
+        <tr>
+            <td>Ironing and Folding</td>
+            <td>Rs. 5</td>
+        </tr>
+    </table>
 
+    <!-- Book Now Section -->
+    <h2>Book Now</h2>
+    <form>
 
+        <!-- Name -->
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required 
+               minlength="3" maxlength="50"><br><br>
 
-  <!--ctrl+/ -->
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <!-- Phone -->
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" required 
+               pattern="[0-9]{10}" 
+               title="Enter 10 digit phone number"><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: <a href="">info@laundrymart.com</a></p>
+    </footer>
+
+</body>
+</html>
