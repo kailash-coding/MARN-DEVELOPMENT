@@ -1,0 +1,15 @@
+body{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color: aquamarine;
+    background-color: black;
+}
+article{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 45px;
+    margin: 45px;
+    font-size: 16px;
+    border-radius: 25%;
+}
