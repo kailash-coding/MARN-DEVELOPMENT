@@ -1,29 +1,25 @@
-main{
-    border: 2px solid rebeccapurple;
-      /* border-radius: 5px; */
-      width: 50%;
-      /* %, vw(view width) , vh(view width) , px (pixxels) em, rem  */
-
-      /* width: 50vw; */
+*{    /* body */
+    margin: 0;
+    padding: 0;
 }
 
-/* html {
-    font-size: 1em;
-} */
-section{
-    border: 4px dotted green;
-    /* height: 150vh; */
-    width: 70;
+#box2{
+    padding-bottom: 50px;
+    
 }
-
-body{
-    font-size: 2em;
-}
-header{
-    font-size: 2em;
-}
-
-h2{
-    /* font-size: 30px; */
-    font-size: 4em;
+div{
+    border: 20px solid #17962c;
+    padding: 20px 15px 20px 15px ;
+    /* padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px; */
+    margin: 10px 8px 10px 8px;
+    /* margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    */
+    width: 250px;
+    height: 250px;
 }
