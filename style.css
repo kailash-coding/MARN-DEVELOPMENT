@@ -1,3 +1,29 @@
-h1{
-   color: blue;
+main{
+    border: 2px solid rebeccapurple;
+      /* border-radius: 5px; */
+      width: 50%;
+      /* %, vw(view width) , vh(view width) , px (pixxels) em, rem  */
+
+      /* width: 50vw; */
+}
+
+/* html {
+    font-size: 1em;
+} */
+section{
+    border: 4px dotted green;
+    /* height: 150vh; */
+    width: 70;
+}
+
+body{
+    font-size: 2em;
+}
+header{
+    font-size: 2em;
+}
+
+h2{
+    /* font-size: 30px; */
+    font-size: 4em;
 }
