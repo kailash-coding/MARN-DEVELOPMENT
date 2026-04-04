@@ -21,5 +21,7 @@ URL (uniform resource locator)
          ip   : internet protcol (ipv4 & ipv6) 
    
     http ----ssl (secure socket layer)  certification -->
+
+
        
   
