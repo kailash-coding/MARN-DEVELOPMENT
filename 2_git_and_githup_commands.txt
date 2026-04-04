@@ -8,7 +8,7 @@ new  v4
 
 >> it is distributed (on cloud)
 >> collaboration
->> tracking  changes 
+>> tracking  changes   
 >> recovery 
 
 https:// git-scm.com/dowloads   2.50.0
