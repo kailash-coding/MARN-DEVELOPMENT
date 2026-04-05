@@ -5,7 +5,6 @@ git >> version control
      v3
 new  v4
   
-
 >> it is distributed (on cloud)
 >> collaboration
 >> tracking  changes   
