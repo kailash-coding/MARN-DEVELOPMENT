@@ -18,9 +18,6 @@ gitlabs
 gitpad
 
 
-    
-    
-
 >> for 1st time need to configire  github in our system
 
  git config --global user.name "kailash-coding"
