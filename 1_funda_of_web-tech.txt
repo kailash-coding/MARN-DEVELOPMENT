@@ -54,7 +54,6 @@ server/domaim name :
        >> unique identifier 
            >> Eg : google
 
-
 sub-ddomain name :
          >>gmeet
          >>gmaps
@@ -74,8 +73,6 @@ TLD (top lever domain ):
      amazon.edu  (education)
      amazon.org (orgensisation)
      amazon.uk  (uniked kinddom)
-  
-
 
 bisleri
            abc*not
