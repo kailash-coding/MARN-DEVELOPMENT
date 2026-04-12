@@ -24,7 +24,6 @@ gitpad
 
  git config --global color.ui automated
 
-
  mandatory ccommands:
   >> git inst
   >> git  remote add origin https://https://github.com/kailash-coding/kailash-suthar.git
