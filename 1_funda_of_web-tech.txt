@@ -11,7 +11,7 @@ Three pillars
 
 other stacks 
     >>MEAN ,  MERN , java full  stack
-
+ 
 web dev
      >> building/development team 
      >> testing team (manual testers / automated  testers)
