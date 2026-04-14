@@ -22,7 +22,7 @@ SDLC (software development life cycle ):
       >> waterfall model
       >> agile model
       >> spiral model 
-      >> iterative model
+      >> iterative model 
      >> v shaped model
      >> R  AD (rapid application development) model
 
