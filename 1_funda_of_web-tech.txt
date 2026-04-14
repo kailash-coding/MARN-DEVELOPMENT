@@ -1,5 +1,5 @@
 MEAN STACK
-     >>  M: mongoDB  (data base)
+     >>  M: mongoDB  (data base) 
      >>  E:  express js (bankend)
      >>  A: angular    (frontend)
      >>  N:  noda js  (bankend) 
