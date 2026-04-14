@@ -2,7 +2,7 @@ MEAN STACK
      >>  M: mongoDB  (data base)
      >>  E:  express js (bankend)
      >>  A: angular    (frontend)
-     >>  N:  noda js  (bankend)
+     >>  N:  noda js  (bankend) 
 
 Three pillars
     >> html(hyper text markup language )
