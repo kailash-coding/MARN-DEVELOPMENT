@@ -7,7 +7,7 @@ URL (uniform resource locator)
 
     https: protcol
     webdev: server/domain name 
-    education: sub-domain
+    education: sub-domain 
     .edu: TLD (top level domain )
     Fullstack: page
 
