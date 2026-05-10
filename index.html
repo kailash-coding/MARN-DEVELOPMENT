@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Stationery – Office & Stationery Supplies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <div class="logo">xyz<span>Stationery</span></div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta">Get a Quote</button>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#home" onclick="closeMobileMenu()">Home</a>
+  <a href="#products" onclick="closeMobileMenu()">Products</a>
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+  <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+</div>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-content fade-up">
+    <div class="hero-badge">Mumbai's Trusted Stationery Store</div>
+    <h1 class="hero-title">Your One-Stop Shop for <em>Office & Stationery</em> Supplies</h1>
+    <p class="hero-desc">We are leading providers of office supplies and stationery products in Mumbai, Maharashtra. Wide range of products processed using top quality materials and sophisticated technology.</p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="scrollTo('products')">Explore Products</button>
+      <button class="btn-outline" onclick="scrollTo('contact')">Get a Quote</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item"><div class="stat-num">500+</div><div class="stat-label">Products</div></div>
+      <div class="stat-item"><div class="stat-num">10K+</div><div class="stat-label">Customers</div></div>
+      <div class="stat-item"><div class="stat-num">15+</div><div class="stat-label">Years</div></div>
+    </div>
+  </div>
+  <div class="hero-visual fade-up">
+    <div class="hero-img-box">📚</div>
+    <div class="float-card float-card-1">📦 Fast Delivery</div>
+    <div class="float-card float-card-2">⭐ 4.9 Rated</div>
+  </div>
+</section>
+
+<!-- Consumables -->
+<section class="consumables" id="consumables">
+  <div class="text-center fade-up">
+    <span class="section-tag">Consumables</span>
+    <h2 class="section-title">Photocopier Consumables</h2>
+    <p class="section-sub">Premium quality consumables for all major photocopier brands at unbeatable prices.</p>
+  </div>
+  <div class="cat-grid">
+    <div class="cat-card fade-up">
+      <div class="cat-icon">🖨️</div>
+      <h3>Ink Cartridges</h3>
+      <p>For all major printer brands</p>
+    </div>
+    <div class="cat-card fade-up">
+      <div class="cat-icon">🔲</div>
+      <h3>Toner Cartridge</h3>
+      <p>Laser quality prints every time</p>
+    </div>
+    <div class="cat-card fade-up">
+      <div class="cat-icon">📜</div>
+      <h3>Thermal Films</h3>
+      <p>High-clarity thermal printing</p>
+    </div>
+    <div class="cat-card fade-up">
+      <div class="cat-icon">🎨</div>
+      <h3>Ribbons</h3>
+      <p>Vibrant colors, crisp output</p>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section class="products" id="products">
+  <div class="products-header fade-up">
+    <div>
+      <span class="section-tag">Shop Now</span>
+      <h2 class="section-title">Featured Products</h2>
+    </div>
+    <a href="#" class="view-all">View All Products →</a>
+  </div>
+  <div class="products-grid" id="products-grid">
+    <!-- Rendered by script.js -->
+  </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-img-wrap fade-up">
+      <div class="about-main-img">🖊️</div>
+      <div class="about-accent">📎</div>
+    </div>
+    <div class="about-text fade-up">
+      <span class="section-tag">Our Story</span>
+      <h2 class="section-title">About Smart Stationery</h2>
+      <p>We, Smart Stationery at Malad West in Mumbai, Maharashtra, are one of the leading providers of office supplies and stationery products in the city. We have a wide range of stationery products to choose from with the best quality and brands.</p>
+      <p>The offered products are processed by utilizing top quality base materials and sophisticated technology. Customer satisfaction is very important to us and we strive towards better products every single day.</p>
+      <button class="btn-primary" style="margin-top:8px;" onclick="scrollTo('contact')">Get in Touch</button>
+    </div>
+  </div>
+</section>
+
+<!-- Why Us -->
+<section class="why-us" id="why">
+  <div class="text-center fade-up">
+    <span class="section-tag" style="background:rgba(232,160,32,0.2);color:#FAC775;">Why Choose Us</span>
+    <h2 class="section-title">The Smart Stationery Difference</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,0.5);">We go beyond selling products — we build lasting relationships.</p>
+  </div>
+  <div class="why-grid">
+    <div class="why-card fade-up">
+      <div class="why-icon-box">⭐</div>
+      <h4>Quality Spares</h4>
+      <p>We provide all quality spares to our customers, sourced from the best manufacturers.</p>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-icon-box">💰</div>
+      <h4>Competitive Prices</h4>
+      <p>We offer the latest technology photocopiers, machines and consumables at unbelievable prices.</p>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-icon-box">👨‍🔧</div>
+      <h4>Trained Professionals</h4>
+      <p>Complete team of trained engineers with special training for different product categories.</p>
+    </div>
+    <div class="why-card fade-up">
+      <div class="why-icon-box">⚡</div>
+      <h4>Prompt Services</h4>
+      <p>We provide prompt and reliable services to all our customers across Mumbai.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+  <div class="text-center fade-up">
+    <span class="section-tag">Gallery</span>
+    <h2 class="section-title">Our Products in Action</h2>
+    <p class="section-sub">A glimpse of our wide range of office and stationery products.</p>
+  </div>
+  <div class="gallery-grid fade-up">
+    <div class="gallery-item"><span>📚</span><div class="gallery-overlay"><span>View</span></div></div>
+    <div class="gallery-item"><span>✏️</span><div class="gallery-overlay"><span>View</span></div></div>
+    <div class="gallery-item"><span>🖨️</span><div class="gallery-overlay"><span>View</span></div></div>
+    <div class="gallery-item"><span>📒</span><div class="gallery-overlay"><span>View</span></div></div>
+    <div class="gallery-item"><span>🖊️</span><div class="gallery-overlay"><span>View</span></div></div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials" id="testimonials">
+  <div class="text-center fade-up">
+    <span class="section-tag">Reviews</span>
+    <h2 class="section-title">What Our Customers Say</h2>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card fade-up">
+      <div class="stars">★★★★★</div>
+      <blockquote>"The list of products that they offer are highly durable. We have been sourcing our office supplies from Smart Stationery for over 3 years now."</blockquote>
+      <div class="testi-author">
+        <div class="avatar">SA</div>
+        <div><div class="author-name">Sharmila Acharya</div><div class="author-role">Office Manager</div></div>
+      </div>
+    </div>
+    <div class="testi-card fade-up">
+      <div class="stars">★★★★★</div>
+      <blockquote>"Their range of products are huge and the price at which they offer is super affordable. Highly recommend for all stationery needs."</blockquote>
+      <div class="testi-author">
+        <div class="avatar">PB</div>
+        <div><div class="author-name">Praful Baweja</div><div class="author-role">Business Owner</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="text-center fade-up" style="margin-bottom:56px;">
+    <span class="section-tag">Get In Touch</span>
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-sub">We'd love to hear from you. Send us a message and we'll get back to you shortly.</p>
+  </div>
+  <div class="contact-inner">
+    <div class="fade-up">
+      <div class="map-box">📍 Palm Court Bldg M, Malad West, Mumbai</div>
+      <div class="contact-info-item">
+        <div class="contact-icon-box">🏢</div>
+        <div>
+          <strong>Our Office Address</strong>
+          <p>Palm Court Bldg M, 503B, 5th Floor, New Link Road, Beside Goregaon Sports Complex, Malad West, Mumbai, Maharashtra 400064</p>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-icon-box">📧</div>
+        <div><strong>General Enquiries</strong><p>websupport@justdial.com</p></div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-icon-box">📞</div>
+        <div><strong>Call Us</strong><p>+91 00000 00000</p></div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-icon-box">🕐</div>
+        <div><strong>Our Timing</strong><p>Mon – Sun: 10:00 AM – 7:00 PM</p></div>
+      </div>
+    </div>
+    <div class="fade-up">
+      <div id="contact-form-wrap">
+        <h3 class="form-title">Send Us a Message</h3>
+        <form id="contact-form" onsubmit="submitForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" id="f-name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label>Email Address *</label>
+              <input type="email" id="f-email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Mobile Number</label>
+            <input type="tel" id="f-phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+          <div class="form-group">
+            <label>Message *</label>
+            <textarea id="f-message" placeholder="Tell us about your requirements..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message ✉️</button>
+        </form>
+        <div class="form-success" id="form-success">
+          <div class="checkmark">✅</div>
+          <h3>Message Sent!</h3>
+          <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">Smart<span style="color:white">Stationery</span></div>
+      <p>Leading provider of office supplies and stationery products in Mumbai. Quality, affordability, and service — all in one place.</p>
+      <div class="social-links">
+        <a class="social-btn" href="#">f</a>
+        <a class="social-btn" href="#">in</a>
+        <a class="social-btn" href="#">tw</a>
+        <a class="social-btn" href="#">yt</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#consumables">Categories</a></li>
+        <li><a href="#why">Why Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#">Palm Court Bldg M, 503B</a></li>
+        <li><a href="#">5th Floor, New Link Road</a></li>
+        <li><a href="#">Malad West, Mumbai 400064</a></li>
+        <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+        <li><a href="mailto:websupport@justdial.com">websupport@justdial.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Smart Stationery. All rights reserved.</span>
+    <span>Designed with ❤️ in Mumbai</span>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<!-- Scroll to top -->
+<button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
